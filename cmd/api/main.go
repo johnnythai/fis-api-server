@@ -58,5 +58,5 @@ func main () {
 
 	err := srv.ListenAndServe()
 	logger.Error(err.Error())
-	os.Exit(1)	
+	os.Exit(1)
 }
